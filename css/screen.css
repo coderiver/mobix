@@ -20,7 +20,21 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@font-face { font-family: HelveticaNeueRoman; src: url("fonts/HelveticaNeueRoman.eot"); src: url("fonts/HelveticaNeueRoman.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeueRoman.woff2") format("woff2"), url("fonts/HelveticaNeueRoman.woff") format("woff"), url("fonts/HelveticaNeueRoman.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+body { font-family: "HelveticaNeueRoman", Arial, sans-serif; font-style: normal; font-weight: normal; font-size: 11px; line-height: 1.4; background: #232628; color: #8b8b8b; }
+
+.out { max-width: 600px; margin: 0 auto; }
+
+.header { padding-top: 20px; margin-bottom: 22px; text-align: center; }
+
+.header__in { margin-left: 10%; padding-right: 10%; border-bottom: 1px solid #484b4c; padding-bottom: 20px; text-align: left; }
+
+.logo { display: inline-block; margin-bottom: 20px; background: url('../img/icons-s0e530b5a9e.png') 0 -30px no-repeat; background-position: 0 -15px; width: 196.5px; height: 20.5px; -moz-background-size: 197px 36px; -webkit-background-size: 197px 36px; background-size: 197px 36px; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
