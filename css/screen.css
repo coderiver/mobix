@@ -36,6 +36,19 @@ body { font-family: "HelveticaNeueRoman", Arial, sans-serif; font-style: normal;
 
 .logo { display: inline-block; margin-bottom: 20px; background: url('../img/icons-s0e530b5a9e.png') 0 -30px no-repeat; background-position: 0 -15px; width: 196.5px; height: 20.5px; -moz-background-size: 197px 36px; -webkit-background-size: 197px 36px; background-size: 197px 36px; }
 
+.content { padding: 0 6px; }
+
+.video { position: relative; margin-bottom: 14px; }
+
+.video__title { margin-bottom: 8px; padding-left: 28px; font-size: 17px; color: #fff; }
+.video__title span { font-size: 18px; color: #e52c51; margin-right: 11px; }
+
+.video__author { margin-bottom: 19px; padding-left: 28px; color: #8b8b8b; }
+.video__author a { color: #ff2d57; text-decoration: none; }
+
+.video__container { position: relative; }
+.video__container img { width: 100%; height: auto; display: block; }
+
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
